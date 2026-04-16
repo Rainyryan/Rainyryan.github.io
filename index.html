@@ -1,10 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan (Cheng-Hao) Chen - Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --background: #f8f9fa;
+            --text-color: #333;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 1rem 0 0;
+            font-size: 1.1rem;
+            color: #ecf0f1;
+        }
+        header a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        section {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.2rem;
+        }
+        .meta-info {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        .tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .tag {
+            background-color: #e8f4f8;
+            color: var(--accent-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        ul {
+            margin-top: 0.5rem;
+            padding-left: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to my GitHub Pages site.</p>
+
+    <header>
+        <h1>Ryan (Cheng-Hao) Chen [cite: 1]</h1>
+        <p>West Lafayette [cite: 2] | <a href="mailto:rc6150@gmail.com">rc6150@gmail.com [cite: 2]</a> | +1 (765) 409-5721 [cite: 2]</p>
+        <p><a href="https://www.linkedin.com/in/ryan-chen-227102224/" target="_blank">LinkedIn Profile [cite: 2]</a></p>
+    </header>
+
+    <div class="container">
+        
+        <section id="research">
+            <h2>Research Interests [cite: 10]</h2>
+            <ul>
+                <li><strong>Deep Learning & Generative AI:</strong> Diffusion models/GANs/Text-to-image models / Efficient Transformer Architectures & Optimization[cite: 14].</li>
+                <li><strong>Computer Vision & Image Processing:</strong> Vision Transformers / Image Super-Resolution & Anti-Aliasing/ Computational Photography / Fourier Optics[cite: 15].</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education [cite: 3]</h2>
+            
+            <h3>Purdue University, West Lafayette, IN, US [cite: 7]</h3>
+            <p class="meta-info">(Enrolled) Master's degree in Electrical and Computer Engineering [cite: 8] | Expected May 2026 [cite: 12] | Current GPA: 3.85 [cite: 13]</p>
+            <p><strong>Relevant Coursework:</strong> Artificial Intelligence, Deep Learning, Machine Learning [cite: 9]</p>
+            
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+
+            <h3>National Cheng Kung University, Tainan, Taiwan [cite: 4]</h3>
+            <p class="meta-info">Bachelor's degree in Computer Science and Information Engineering [cite: 5] | May 2024 [cite: 11] | GPA: 3.7 [cite: 11]</p>
+            <p><strong>Relevant Coursework:</strong> Algorithms, Data Structures, Operating Systems [cite: 6]</p>
+        </section>
+
+        <section id="experience">
+            <h2>Work & Leadership Experience [cite: 16]</h2>
+            
+            <h3>Graduate Teaching Assistant [cite: 30]</h3>
+            <p class="meta-info">Intelligent Imaging Lab, Purdue University [cite: 29] | West Lafayette, IN [cite: 32] | Aug. 2025-Now [cite: 33]</p>
+            <ul>
+                <li>Courses: ECE50024 Machine Learning and ECE513 Fourier Optics[cite: 30].</li>
+                <li>Conducted office hours, designed weekly quizzes, and answered student questions[cite: 30].</li>
+            </ul>
+
+            <h3>Vice President / Treasurer [cite: 31]</h3>
+            <p class="meta-info">ILTC (I Love Taiwan Club), Purdue University [cite: 31] | West Lafayette, IN [cite: 34] | Aug. 2025-Now [cite: 35]</p>
+
+            <h3>Teaching Assistant [cite: 20]</h3>
+            <p class="meta-info">School of Electrical and Computer Engineering, Purdue University [cite: 17] | Aug. 2024-Dec. 2024 [cite: 24]</p>
+            <ul>
+                <li>Course: ECE50024 Machine Learning[cite: 20].</li>
+                <li>Instructed over 20 graduate students, grading homework and exams[cite: 21].</li>
+            </ul>
+
+            <h3>Instructor, Machine Learning for Beginners [cite: 23]</h3>
+            <p class="meta-info">Intelligent Imaging Lab, Purdue University [cite: 22] | Remote [cite: 26] | Jul. 2024 [cite: 26]</p>
+            <ul>
+                <li>Summer outreach course instructor for over 40 high school (10th-12th grade) and first-year college students[cite: 27].</li>
+                <li>Taught the workings of gradient descent, backpropagation, and regularization[cite: 27].</li>
+                <li>Designed and developed instructional materials and assessments for hands-on projects[cite: 28].</li>
+            </ul>
+
+            <h3>Teaching Assistant [cite: 18]</h3>
+            <p class="meta-info">School of Electrical and Computer Engineering, Purdue University [cite: 17] | West Lafayette, IN / Remote [cite: 19] | Jan. 2024-May 2024 [cite: 19]</p>
+            <ul>
+                <li>Course: ECE302 Probability[cite: 18].</li>
+                <li>Instructed over 190 undergraduate students during weekly office hours, and graded homework and exams[cite: 20].</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects [cite: 36]</h2>
+            
+            <h3>DIFFUSEFACES - Forensic Face Sketch Generator [cite: 37]</h3>
+            <p class="meta-info">Jun. 2022 - May 2023 [cite: 38]</p>
+            <ul>
+                <li>Developed a Stable Diffusion based image generator to assist in forensic facial imaging[cite: 39].</li>
+                <li>Trained the model with 15,000 face images from FFHQ and 15,000 faces generated with StyleGAN3[cite: 40].</li>
+                <li>Fine-tuned the model using the LoRA (Low-Rank Adaptation) technique[cite: 41].</li>
+                <li>Ranked 4th out of 80 teams at the senior project exhibition[cite: 42].</li>
+            </ul>
+
+            <h3>AI in Music - Robot Cello [cite: 43]</h3>
+            <p class="meta-info">Jan. 2024 - Jun. 2024 [cite: 44]</p>
+            <ul>
+                <li>Developed a robotic arm system designed to interpret MIDI files and play the cello autonomously[cite: 45].</li>
+                <li>Implemented LSTM-based kinematic modeling to predict bowing trajectories[cite: 46].</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Tools [cite: 47]</h2>
+            <div class="tag-container">
+                <span class="tag">Python [cite: 48]</span>
+                <span class="tag">C++ [cite: 48]</span>
+                <span class="tag">C [cite: 48]</span>
+                <span class="tag">Git [cite: 48]</span>
+                <span class="tag">Docker [cite: 48]</span>
+                <span class="tag">Bash (Linux) [cite: 48]</span>
+                <span class="tag">Pytorch [cite: 48]</span>
+                <span class="tag">Hugging Face [cite: 48]</span>
+                <span class="tag">LangChain [cite: 48]</span>
+                <span class="tag">Numpy [cite: 48]</span>
+                <span class="tag">JAX [cite: 48]</span>
+                <span class="tag">Scikit-Learn [cite: 48]</span>
+                <span class="tag">Pandas [cite: 48]</span>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ryan (Cheng-Hao) Chen. Built for GitHub Pages.</p>
+    </footer>
+
 </body>
 </html>
