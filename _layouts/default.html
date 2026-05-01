@@ -86,6 +86,10 @@
               <br>
               <em>{{post.date_display}}</em>
               <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a>
+              <br>
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>

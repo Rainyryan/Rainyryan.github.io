@@ -6,5 +6,6 @@ permalink: /
 image: Ryan_headshot.JPEG
 categories: portfolio
 date_display: Jan 2026 - Present
+paper: /pdfs/hdr_denoising_optimization.pdf
 ---
 Engineered a highly efficient Hybrid Student HDR denoising model utilizing knowledge distillation. Achieved a 31.63x speedup and cut per-image latency down to 30-31 ms, enabling real-time-class inference on an NVIDIA RTX 3080.
