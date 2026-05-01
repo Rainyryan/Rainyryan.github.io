@@ -3,7 +3,7 @@ layout: post
 title: "DIFFUSEFACES - Forensic Face Sketch Generator"
 date: 2022-06-01 00:00:00 +00:00
 permalink: /
-image: diffusefaces.jpg
+image: Ryan_headshot.JPEG
 categories: portfolio
 date_display: Jun 2022 - May 2023
 ---

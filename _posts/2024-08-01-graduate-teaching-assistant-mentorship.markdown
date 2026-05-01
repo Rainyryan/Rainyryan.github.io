@@ -3,7 +3,7 @@ layout: post
 title: "Graduate Teaching Assistant and Mentorship"
 date: 2024-08-01 00:00:00 +00:00
 permalink: /
-image: graduate-teaching-assistant.jpg
+image: Ryan_headshot.JPEG
 categories: portfolio
 date_display: Aug 2024 - Present
 ---

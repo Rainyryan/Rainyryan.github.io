@@ -3,7 +3,7 @@ layout: post
 title: "HDR Image Denoising Model Optimization"
 date: 2026-01-01 00:00:00 +00:00
 permalink: /
-image: hdr-image-denoising.jpg
+image: Ryan_headshot.JPEG
 categories: portfolio
 date_display: Jan 2026 - Present
 ---

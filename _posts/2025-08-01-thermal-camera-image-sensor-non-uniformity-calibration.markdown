@@ -3,7 +3,7 @@ layout: post
 title: "Thermal Camera Image Sensor Non-Uniformity Calibration"
 date: 2025-08-01 00:00:00 +00:00
 permalink: /
-image: thermal-camera-calibration.jpg
+image: Ryan_headshot.JPEG
 categories: portfolio
 date_display: Aug 2025 - Jan 2026
 ---
