@@ -5,6 +5,7 @@ date: 2026-01-01 00:00:00 +00:00
 permalink: /
 image: Ryan_headshot.JPEG
 categories: portfolio
+section: project
 date_display: Jan 2026 - Present
 paper: /pdfs/hdr_denoising_optimization.pdf
 ---
